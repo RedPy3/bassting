@@ -1,6 +1,6 @@
 # Admin-Finder Tool
 **Con esta herramienta podrás encontrar el inicio de sesión del control-panel con un diccionario.**
-Este trae por defecto un diccionario con 134 posibles logins, aunque, si vos lo deseas, podrá cambiar el diccionario en el propio archivo.
+Este trae por defecto un diccionario con 134 posibles logins, aunque, si vos lo deseas, podrá cambiar el diccionario en las opciones del archivo.
 
 ## Instalar y ejecutar
 Solo lo probé en mi máquina con Linux, pero supongo que no tendrá problema alguno al ejecutarlo en Windows.
