@@ -7,7 +7,7 @@ Solo lo probé en mi máquina con Linux, pero supongo que no tendrá problema al
 Comandos a ejecutar:
 ```
 git clone https://github.com/n4kzu/bassting.git
-cd admin-finder/
+cd bassting/
 python3 admin-finder.py
 ```
 Una vez instalado y ejecutado, solo falta completar las opciones que te pide.
