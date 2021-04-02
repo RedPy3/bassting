@@ -1,4 +1,4 @@
-# Admin-Finder Tool
+# Bassting
 **Con esta herramienta podrás encontrar el inicio de sesión del control-panel con un diccionario.**
 Este trae por defecto un diccionario con 134 posibles logins, aunque, si vos lo deseas, podrá cambiar el diccionario en las opciones del archivo.
 
