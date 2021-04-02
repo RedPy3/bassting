@@ -6,7 +6,7 @@ Este trae por defecto un diccionario con 134 posibles logins, aunque, si vos lo 
 Solo lo probé en mi máquina con Linux, pero supongo que no tendrá problema alguno al ejecutarlo en Windows.
 Comandos a ejecutar:
 ```
-git clone https://github.com/n4kzu/admin-finder.git
+git clone https://github.com/n4kzu/bassting.git
 cd admin-finder/
 python3 admin-finder.py
 ```
