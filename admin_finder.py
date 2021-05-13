@@ -3,6 +3,7 @@
 
 import requests
 import os
+import platform
 
 #Definir clase "color" con colores
 class color:
@@ -12,6 +13,18 @@ class color:
     end = '\033[0m'
     negrita = '\033[1m'
     azul = '\033[94m'
+
+# valida desde que sitema se esta ejecutando el script
+# para limpiar la pantalla en ejecucion
+system = platform.system()
+
+def detectarSys():
+    if system == "Linux":
+        os.system("clear")
+    elif system == "Windows":
+        os.system("cls")
+    else:
+        os.system("exit")
 
 #Definir escaneo
 def scan():
@@ -34,10 +47,13 @@ def scan():
         else:
             print(f"{color.rojo}[-] Admin Page no encontrado: "+url+"/"+words+f"{color.end}")
 
+
 #Variable por defecto
 dic = "admin_pages"
 
-os.system("clear")
+#os.system("clear")
+detectarSys()
+
 
 banner = f'''{color.azul}
 -+- By: k3rbero/n4kzu/pr3tyx -+-
@@ -83,4 +99,6 @@ print(f"{color.negrita}{color.azul}[*] Diccionario actual: {color.end}" + dic)
 print(f"{color.negrita}{color.azul} -+- -+- -+- ### -+- -+- -+- {color.end}")
 print(f"{color.negrita}{color.azul} [~] Cargando...{color.end}")
 print(f"{color.negrita}{color.azul} -+- -+- -+- ### -+- -+- -+- {color.end}")
-scan()
+
+if __name__ == '__main__':
+    scan()
